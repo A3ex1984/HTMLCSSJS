@@ -31,8 +31,25 @@ console.log(1 + 5 - 2);
 //String concatenation
 "Hello" + ", Welcome to New York City"
 
+var quote = "Stay awhile and listen!";
+console.log(quote[6]);
+
 //Variables
 var variableName = value;
 var name = "Zoe"; 
 var greeting = "Hello";
 greeting + " Mike!";
+
+//Conversion
+var celsius = 12;
+var fahrenheit = celsius * 1.8 +32 /* convert celsius to fahrenheit here */
+
+console.log(fahrenheit);
+
+//Special Characters
+Code	Character
+\\	\ (backslash)
+\"	'' (double quote)
+\'	' (single quote)
+\n	newline
+\t	tab
