@@ -18,6 +18,10 @@ for (var i = 0; i < 10; i++) {
     myImage.style.marginLeft = "160px";
 });
 
+var myNumber = 27; //this is a number
+var myString = "Julia"; //this is a string
+var myBoolean = false; //this is a boolean
+
 //Writing things to the console
 console.log(1 + 5 - 2);
 
