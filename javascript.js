@@ -57,3 +57,18 @@ Code	Character
 \'	' (single quote)
 \n	newline
 \t	tab
+
+//Conditionals
+
+
+//Loops
+
+
+//Functions
+
+
+//Arrays
+
+
+//Objects
+
