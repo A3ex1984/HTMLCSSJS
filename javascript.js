@@ -59,6 +59,24 @@ Code	Character
 \t	tab
 
 //Conditionals
+//An algorithm are the steps that a computer takes to solve a problem
+var prize = 15.00; //prize of hammer
+var money = 20.00; //how much money i have
+if (money >= prize) {
+  console.log ("Buy the hammer.")
+} else {
+  console.log ("Do not buy the hammer.")
+}
+
+var weather = "sunny";
+
+if (weather === "snow") {
+  console.log("Bring a coat.");
+} else if (weather === "rain") {
+  console.log("Bring a rain jacket.");
+} else {
+  console.log("Wear what you have on.");
+}
 
 
 //Loops
