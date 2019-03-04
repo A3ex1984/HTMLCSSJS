@@ -78,6 +78,14 @@ if (weather === "snow") {
   console.log("Wear what you have on.");
 }
 
+//Logical Operators - Logical expressions always equal to true or false
+//$$ And || Or ! Not
+var colt = "not busy";
+var weather = "nice";
+
+if (colt === "not busy" && weather === "nice") { //&& is the logical AND operator
+  console.log("go to the park");
+}
 
 //Loops
 
