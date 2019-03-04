@@ -87,6 +87,19 @@ if (colt === "not busy" && weather === "nice") { //&& is the logical AND operato
   console.log("go to the park");
 }
 
+
+var balance = 325.00;
+var checkBalance = true;
+var isActive = false;
+
+// your code goes here
+if (checkBalance === false) {
+  console.log ("Thank you. Have a nice day!")
+} else if (isActive == true && balance > 0) {
+  console.log ("Your balance is" + balance.toFixed(2))
+}
+
+
 //Loops
 
 
