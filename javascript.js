@@ -101,7 +101,32 @@ if (checkBalance === false) {
 
 
 //Loops
+/* Three pieces that every loop should have 1. When to start - defining the start value of a variable for example
+ 2. When to stop - logical condition to test 3. How to get to the next item - incrementing or decrementing step 
+ --> Be careful as missing one of those pieces might result in an infinite loop */
+var x = 1;
+  while (x <= 1000) {
+    console.log( x + " mississippi!");
+    x = x + 1;
+  }
 
+  var x = 1;
+
+  while (x <= 20) {
+      if (x % 3 == 0 && x % 5 == 0){
+          console.log ("JuliaJames");
+      } 
+      else if (x % 3 == 0){
+          console.log ("Julia");
+      }
+      else if (x % 5 == 0){
+          console.log ("James");
+      }
+      else {
+          console.log (x);
+      }
+      x = x + 1;
+  }
 
 //Functions
 
