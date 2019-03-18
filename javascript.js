@@ -1,5 +1,6 @@
 // Link for Developer Tool/ShortCuts in Google Chrome https://developers.google.com/web/tools/chrome-devtools/shortcuts
 /* Multi
+CHEAT SHEET: https://htmlcheatsheet.com/js/
 Line Comments*/ 
 
 document.getElementsByTagName("h1")[0].style.color = "#ff0000";
