@@ -1,5 +1,6 @@
 // Link for Developer Tool/ShortCuts in Google Chrome https://developers.google.com/web/tools/chrome-devtools/shortcuts
 /* Multi
+CHEAT SHEET: https://htmlcheatsheet.com/js/
 Line Comments*/ 
 
 document.getElementsByTagName("h1")[0].style.color = "#ff0000";
@@ -133,7 +134,69 @@ switch (option) {
 
 
 //Loops
+/* Three pieces that every loop should have 1. When to start - defining the start value of a variable for example
+ 2. When to stop - logical condition to test 3. How to get to the next item - incrementing or decrementing step 
+ --> Be careful as missing one of those pieces might result in an infinite loop */
+var x = 1;
+  while (x <= 1000) {
+    console.log( x + " mississippi!");
+    x = x + 1;
+  }
 
+  var x = 1;
+
+  while (x <= 20) {
+      if (x % 3 == 0 && x % 5 == 0){
+          console.log ("JuliaJames");
+      } 
+      else if (x % 3 == 0){
+          console.log ("Julia");
+      }
+      else if (x % 5 == 0){
+          console.log ("James");
+      }
+      else {
+          console.log (x);
+      }
+      x = x + 1;
+  }
+
+var num = 99;
+
+while (num >= 1) {
+  if (num > 2) {
+    console.log (num + " bottles of juice on the wall! " + num + " bottles of juice! Take one down, pass it around... " + (num-1) + " bottles of juice on the wall!");
+    }
+  if (num == 2) {
+    console.log (num + " bottles of juice on the wall! " + num + " bottles of juice! Take one down, pass it around... " + (num-1) + " bottle of juice on the wall!");
+    }
+  if (num == 1) {
+    console.log (num + " bottle of juice on the wall! " + num + " bottle of juice! Take one down, pass it around... " + (num-1) + " bottles of juice on the wall!");
+    }
+  num = num - 1;
+}
+
+//For loops are the most commonly loops used in JavaScript as it gives you more control over the looping
+for ( start; stop; step ) { // In a for loop I define all these steps up front as oppased to throughout the loop - this gives more control
+  // do this thing
+}
+for (var i = 0; i < 6; i = i + 1){ // x++ is the same as x = x + 1
+  console.log ("Printing out i = " + i);
+}
+//Nested loop
+for (var x = 0; x < 5; x = x + 1) {
+  for (var y = 0; y < 3; y = y + 1) {
+    console.log(x + "," + y);
+  }
+}
+
+// Increment and Decrement
+x++ or ++x // same as x = x + 1 
+x-- or --x // same as x = x - 1
+x += 3 // same as x = x + 3
+x -= 6 // same as x = x - 6
+x *= 2 // same as x = x * 2
+x /= 5 // same as x = x / 5
 
 //Functions
 
