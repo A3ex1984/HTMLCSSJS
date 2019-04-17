@@ -92,11 +92,43 @@ var balance = 325.00;
 var checkBalance = true;
 var isActive = false;
 
-// your code goes here
 if (checkBalance === false) {
   console.log ("Thank you. Have a nice day!")
 } else if (isActive == true && balance > 0) {
   console.log ("Your balance is" + balance.toFixed(2))
+}
+
+//TIP: Using if(isGoing) is the same as using if(isGoing === true). 
+//Alternatively, using if(!isGoing) is the same as using if(isGoing === false). 
+// This can be done with --> Ternary Operator
+var isGoing = true;
+var color = isGoing ? "green" : "red"; //green is the output if isGoing is true and red if it is false
+console.log(color);
+
+//Switch Statements
+// Select from a number of different options in order to not write a variety of if statements
+
+var option = 3;
+
+switch (option) {
+  case 1:
+    console.log("You selected option 1.");
+    break;
+  case 2:
+    console.log("You selected option 2.");
+    break;
+  case 3:
+    console.log("You selected option 3.");
+    break;
+  case 4:
+    console.log("You selected option 4.");
+    break;
+  case 5:
+    console.log("You selected option 5.");
+    break;
+  case 6:
+    console.log("You selected option 6.");
+    break; // technically, not needed
 }
 
 
