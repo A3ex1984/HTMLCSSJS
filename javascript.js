@@ -200,6 +200,24 @@ x /= 5 // same as x = x / 5
 
 //Functions
 
+function sayHello() {
+  var message = "Hello!"
+  console.log(message);
+}
+
+// x and y are parameters in this function declaration
+function add(x, y) {
+  // function body
+  var sum = x + y;
+  return sum; // return statement
+}
+
+// 1 and 2 are passed into the function as arguments
+var sum = add(1, 2);
+
+//Hoisting means that JS looks for all functions and hoists them to the top so you can actually call functions in 
+//the code before it has been declared - this also happens with variable declarations -- it is still good practice 
+//to declare functions on top of the script and variables on top of the functions
 
 //Arrays
 
