@@ -215,9 +215,23 @@ function add(x, y) {
 // 1 and 2 are passed into the function as arguments
 var sum = add(1, 2);
 
-//Hoisting means that JS looks for all functions and hoists them to the top so you can actually call functions in 
-//the code before it has been declared - this also happens with variable declarations -- it is still good practice 
-//to declare functions on top of the script and variables on top of the functions
+/*Hoisting means that JS looks for all functions and hoists them to the top so you can actually call functions in 
+the code before it has been declared - this also happens with variable declarations -- it is still good practice 
+to declare functions on top of the script and variables on top of the functions 
+--> You can also store a function in a variable; this is called "Function Expression"; you do not need to name the
+function anymore as it would be redundant
+*/
+
+//Example of storing a function in a variable
+var catSays = function(max) {
+  var catMessage = "";
+  for (var i = 0; i < max; i++) {
+    catMessage += "meow ";
+  }
+  return catMessage;
+};
+
+// 
 
 //Arrays
 
